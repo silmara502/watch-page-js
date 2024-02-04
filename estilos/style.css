@@ -6,10 +6,13 @@
 
 body{
     background: #f7f7f7;
-    display: grid;
+
+   /*  margin-top: 60px; */
+}
+.container-intro{
+  display: grid;
     justify-items: center;
     gap: 60px;
-   /*  margin-top: 60px; */
 }
 header{
     text-align: center;
@@ -107,23 +110,25 @@ footer{
 .container{
     max-width: 1200px;
     margin-bottom: 70px;
+    justify-content: center;
     text-align: center;
-    overflow-x: auto;
-    margin: 0 10px 0 10px;
-    flex-wrap: nowrap;
-   
+    
+    margin: 0 auto;
+
 }
 
 .container h1{
     padding: 20px;
+    margin-bottom: 20px;
 }
 .relogios-modelos {
     list-style-type: none;
     display: flex;
     gap: 20px;
     padding-bottom: 9px; 
-  
     margin-bottom: 0;
+    margin: 0 20px;
+    overflow-x: auto;
 }
 
 ul{
@@ -133,7 +138,6 @@ margin-right: 20px;
 .relogios-modelos li img{
   max-width: 100%;
   max-height: 400px;
- 
   min-width: 150px; 
   cursor: pointer;
  
@@ -146,19 +150,17 @@ margin-right: 20px;
     display: contents;
   }
   .relogios-discricao {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
     gap: 15px;
     padding: 5px;   
     margin-left: 25px;
 }
 
 .relogios-discricao section {
+    margin: 30px 0px 50px 0px;
    padding: 10px;
-
-    color: #f7f7f7;
+   display: none;
 }
 
 .relogios-discricao section.ativo {
-    color: black;
+  display: block;
 }

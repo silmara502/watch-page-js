@@ -40,14 +40,14 @@
 }
 
 @media (max-width: 760px) {
-    .container h1{
+    .container section h1{
         padding: 10px;
     }
     .relogios-discricao {
-        padding: 0 5px 0px 6px;
-        font-size: 10px;
+        padding: 0 20px;
+        font-size: 15px;
+       
     }
-    .relogios-discricao section p{
-        font-size: 10px;
-    }
+ 
+
 }
