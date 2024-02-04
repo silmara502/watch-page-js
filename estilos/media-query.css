@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+@media screen  and (max-width: 667px) {
+    body {
+        align-items: center;
+        overflow-x: hidden;
+    }
+
+    header nav{
+        background-color: white;
+        flex-direction: column;
+        align-items: center;
+       
+    }
+
+    nav a {
+        color: black;
+    }
+    nav a:hover{
+        background-color: rgb(206, 202, 202);
+    }
+    main {
+        grid-template-columns: 1fr;
+      
+    }
+    .introducao {
+        text-align: left;
+        justify-content: start;
+        padding: 20px;
+      
+    }
+    .introducao h2, .subtitulo, .vantagem{
+        margin: auto ;
+        
+    }
+    a.botao{
+        padding: 10px;
+
+    }
+}
+
+@media (max-width: 760px) {
+    .container h1{
+        padding: 10px;
+    }
+    .relogios-discricao {
+        padding: 0 5px 0px 6px;
+        font-size: 10px;
+    }
+    .relogios-discricao section p{
+        font-size: 10px;
+    }
+}

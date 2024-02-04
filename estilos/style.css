@@ -1,0 +1,164 @@
+@charset "UTF-8";
+*{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background: #f7f7f7;
+    display: grid;
+    justify-items: center;
+    gap: 60px;
+   /*  margin-top: 60px; */
+}
+header{
+    text-align: center;
+    width: 100%;
+}
+header h1{
+    padding: 60px 0;
+}
+header nav {
+    display: flex;
+    background-color: black;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+nav a{
+    text-decoration: none;
+    color: rgb(252, 252, 252);
+    padding: 10px;
+    border-radius: 4px;
+}
+
+nav a:hover{
+    background-color: #b3b0b028;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 1000px
+}
+
+.introducao{
+   display: grid;
+   text-align: right;
+   padding: 40px;
+   gap: 20px;
+   align-content: center;
+   justify-items: end;
+}
+p{
+    font-size: 18px;
+    line-height: 1.3;
+}
+a.botao{
+    text-decoration: none;
+    padding: 15px 30px;
+    background-color: rgb(247, 84, 84);
+    color: white;
+    border-radius: 4px;
+}
+
+a.botao:hover{
+    background-color: red;
+}
+img{
+    max-width: 100%;
+    display: block;
+    border-radius: 4px;
+}
+.subtitulo{
+    font-size: 64px;
+    color: rgb(0, 0, 0, 0.2);
+    text-align: right;
+    padding: 40px;
+    align-self: center;
+}
+div.vantagem{
+    padding: 40px;
+
+}
+.vantagem-itens{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 10px 20px;
+    padding: 20px;
+}
+.vantagem-itens p{
+    grid-column: 2;
+}
+footer{
+    background: #fff;
+    width: 100%;
+    text-align: center;
+    padding: 40px;
+    box-sizing: border-box;
+}
+
+footer{
+ 
+    padding: 40px;
+}
+
+.container{
+    max-width: 1200px;
+    margin-bottom: 70px;
+    text-align: center;
+    overflow-x: auto;
+    margin: 0 10px 0 10px;
+    flex-wrap: nowrap;
+   
+}
+
+.container h1{
+    padding: 20px;
+}
+.relogios-modelos {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    padding-bottom: 9px; 
+  
+    margin-bottom: 0;
+}
+
+ul{
+margin-right: 20px;
+}
+
+.relogios-modelos li img{
+  max-width: 100%;
+  max-height: 400px;
+ 
+  min-width: 150px; 
+  cursor: pointer;
+ 
+}
+.relogios-modelos li img:hover{
+     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+
+}
+.relogio-container {
+    display: contents;
+  }
+  .relogios-discricao {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    padding: 5px;   
+    margin-left: 25px;
+}
+
+.relogios-discricao section {
+   padding: 10px;
+
+    color: #f7f7f7;
+}
+
+.relogios-discricao section.ativo {
+    color: black;
+}
