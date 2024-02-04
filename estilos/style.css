@@ -112,9 +112,9 @@ footer{
     margin-bottom: 70px;
     justify-content: center;
     text-align: center;
-    
-    margin: 0 auto;
-
+    color: white;
+    margin: 0px auto;
+    padding: 20px 0px;
 }
 
 .container h1{
@@ -163,4 +163,9 @@ margin-right: 20px;
 
 .relogios-discricao section.ativo {
   display: block;
+}
+
+.bg{
+    background-color: #141414;
+
 }
